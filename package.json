@@ -14,11 +14,14 @@
     },
     "dependencies": {
         "eslint": "^6.1.0",
+        "eslint-config-developit": "^1.1.1",
         "preact": "^8.4.2",
         "preact-cli": "^2.2.1",
         "preact-cli-postcss": "^1.1.1",
         "prettier": "^1.18.2",
-        "purgecss-webpack-plugin": "^1.5.0",
         "tailwindcss": "^1.0.5"
+    },
+    "eslintConfig": {
+        "extends": "eslint-config-developit"
     }
 }
