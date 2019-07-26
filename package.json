@@ -1,0 +1,24 @@
+{
+    "name": "preact-tailwind",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/mauroreisvieira/preact-tailwind.git",
+    "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com>",
+    "license": "MIT",
+    "private": false,
+    "scripts": {
+        "build": "preact build",
+        "serve": "preact build && preact serve",
+        "dev": "preact watch",
+        "lint": "eslint"
+    },
+    "dependencies": {
+        "eslint": "^6.1.0",
+        "preact": "^8.4.2",
+        "preact-cli": "^2.2.1",
+        "preact-cli-postcss": "^1.1.1",
+        "prettier": "^1.18.2",
+        "purgecss-webpack-plugin": "^1.5.0",
+        "tailwindcss": "^1.0.5"
+    }
+}
